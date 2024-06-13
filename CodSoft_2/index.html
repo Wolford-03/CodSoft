@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="grishmanth.jpg" alt="Your Name" class="profile-image-right">
+            <p>Hi, I'm Grishmanth, a passionate web developer with a strong foundation in creating dynamic and responsive websites. With a keen eye for detail and a commitment to staying current with the latest industry trends. I started my journey in web development out of a fascination for how the web works and a desire to create functional and beautiful digital spaces. Over the years, I've honed my skills in HTML, CSS, JavaScript.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Brick-Breaker Game</h3>
+            <p>Brick Breaker is a classic arcade game that challenges players to break a wall of bricks by deflecting a bouncing ball with a paddle. The objective is to clear all the bricks from the screen without letting the ball fall off the bottom edge of the playing field. Players control the paddle horizontally at the bottom of the screen, using it to bounce the ball upward, keeping it in play to hit and destroy bricks. As bricks are destroyed, players earn points, and some bricks may release power-ups that enhance the paddle or gameplay dynamics.</p>
+        </div>
+        <div class="project">
+            <h3>Simon Says</h3>
+            <p>Simon Says is a classic memory game that tests players' ability to remember and repeat increasingly longer sequences of colors and sounds. The game features a circular console with four colored sections: red, green, blue, and yellow. Simon, the electronic device or game interface, plays a sequence of tones and lights on these sections in a random order, which players must then repeat by pressing the corresponding colored sections in the correct sequence. As players successfully replicate each sequence, Simon adds another step, making the sequence progressively longer and more challenging.</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>You can download my resume <a href="Resume.pdf" download>here</a>.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Grishmanth. All rights reserved.</p>
+    </footer>
+</body>
+</html>
