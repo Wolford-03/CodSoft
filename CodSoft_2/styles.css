@@ -57,7 +57,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #1e90ff;
+    text-decoration: underline;
+    transition:1s;
 }
 
 
